@@ -15,10 +15,12 @@
    limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="androidx.vectordrawable" 
-    android:versionCode="100"
-    android:versionName="1.0.0">
+    package="androidx.vectordrawable.animated" 
+    android:versionCode="110"
+    android:versionName="1.1.0">
 
-    <uses-sdk android:minSdkVersion="14" />
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="28" />
 
 </manifest>
